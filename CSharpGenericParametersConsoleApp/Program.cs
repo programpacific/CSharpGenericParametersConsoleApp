@@ -28,7 +28,7 @@ namespace CSharpGenericParametersConsoleApp
                 Console.WriteLine("The first example is the \"generic\" handling of a string and secondly the handling of an integer!");
                 Console.WriteLine();
                 Console.WriteLine("Test Strings: " + employee.things[0] + " / " + employee.things[1]);
-                Console.WriteLine("Test Integers: " + Convert.ToString(employeeTwo.things[0]) + "," + Convert.ToString(employeeTwo.things[1]) + ", and " + Convert.ToString(employeeTwo.things[2]));
+                Console.WriteLine("Test Integers: " + Convert.ToString(employeeTwo.things[0]) + ", " + Convert.ToString(employeeTwo.things[1]) + ", and " + Convert.ToString(employeeTwo.things[2]));
                 Console.WriteLine();
                 Console.WriteLine("Press enter to exit");
                 Console.ReadLine();
